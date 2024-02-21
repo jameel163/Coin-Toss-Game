@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.total-bg {
+  background-color: #e2a139;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #ffffff;
+  min-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  padding: 10px;
+}
+.image {
+  height: 200px;
+}
+.heading {
+  color: #a35200;
+  font-family: roboto;
+  font-size: 33px;
+  font-weight: 500;
+}
+.butt {
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: bold;
+  border-radius: 8px;
+  border-width: 0ch;
+  height: 32px;
+}
+.unOrder {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+}
